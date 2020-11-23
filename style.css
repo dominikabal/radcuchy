@@ -6,7 +6,8 @@
 }
 
 body {
-  background: #ececec;
+  background-image: url("./img/pattern");
+  
 }
 
 /*  PLUGIN DEFAULT STYLES    */
@@ -142,7 +143,7 @@ body {
   display: block;
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 320px) {
   .quiz .quizControls button {
     display: initial;
     margin-right: 5px;
@@ -202,7 +203,7 @@ body {
   line-height: 1.5em;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 320px) {
   .quiz .quizResults li {
     padding-left: 20px;
   }
@@ -237,14 +238,27 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  background: #ececec;
-  margin-top: 10%;
+
+  margin-top: 2%;
   height: 100%;
   
 }
 
+@media screen and (min-width: 320px) {
+  #container {
+    width: 320px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width:320px) {
+  #quiz1 {
+    width: 320px;
+  }
+}
+
 #quiz1 {
-  width: 960px;
+  width: 990px;
   background: #fff;
   padding: 2rem;
   border-radius: 9px;
